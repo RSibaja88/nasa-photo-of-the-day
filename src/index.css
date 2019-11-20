@@ -1,13 +1,14 @@
+/* font-family: 'Russo One', sans-serif; -- Header Title
+font-family: 'Bebas Neue', cursive; -- Card Title
+font-family: 'Pavanam', sans-serif;  -- All other small font text on card */ 
+/* <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a> 
+          the background image link
+*/
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  background-image: url("https://www.freepik.com/free-photos-vectors/background");
 }
