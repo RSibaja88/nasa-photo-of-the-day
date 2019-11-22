@@ -1,8 +1,7 @@
 import React from "react";
-// import axios from "axios";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "../src/Components/HeaderCard";
 import APODPic from "./Components/APODPic";
-import APODCard from "./Components/APODCard";
 import "./App.css";
 
 function App() {
