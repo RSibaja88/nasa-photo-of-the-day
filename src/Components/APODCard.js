@@ -13,7 +13,7 @@ return (
                 <CardSubtitle>Date: {props.date}</CardSubtitle>
             </CardBody>
             <div className="text-center">
-                <img className="propsPic" align-content='center' width="60%" src={props.hdurl} alt='Astronomy Picture of the Day' /></div>
+                <img className="propsPic" align-content='center' width="70%" src={props.hdurl} alt='Astronomy Picture of the Day' /></div>
             <CardBody>
                 <CardText>Description: {props.explanation}</CardText>
             </CardBody>
