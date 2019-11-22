@@ -23,7 +23,7 @@ export default function APODPic() {
           setAstro(res.data);
           console.log(res.data);
         })
-        .catch(error => {
+        .catch(_error => {
             console.log("ERROR")
     })
  }, []);
@@ -31,7 +31,7 @@ export default function APODPic() {
     return (
         <div className='container'>
             <APODCard hdurl={astro.hdurl} title={astro.title} copyright={astro.copyright} date={astro.date} explanation={astro.explanation}/>
-            </div>
+        </div>
          
     );
 }

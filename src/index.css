@@ -11,4 +11,5 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('../src/Components/img/spaceBG.jpg');
+  text-align: center;
 }
